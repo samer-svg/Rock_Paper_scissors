@@ -1,0 +1,59 @@
+body {
+  height: 80vh;
+  padding:3em 12% 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+button {
+  margin: 2rem 1rem 1rem;
+  padding: 3rem 3rem;
+  cursor: pointer;
+  font-size:2.5rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.555);
+  border: none;
+}
+button:hover {
+  box-shadow: 0 0 25px whitesmoke;
+  opacity: .8;
+}
+.flex {
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+div {
+  text-align: center;
+}
+.smaller, .smaller0 {
+  padding: 1em;
+  margin: .3em;
+  font-size: 1.7em;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.9em;
+  margin: .8em;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.411);
+  border-radius: 20px;
+  padding:0 2em 2em;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+.resetText {
+  color: whitesmoke;
+}
+.yes , .no {
+  font-size: 2.1em;
+  padding: .5em;
+  color: whitesmoke;
+  margin: 0 .5em;
+  border-radius: 10px;
+}
